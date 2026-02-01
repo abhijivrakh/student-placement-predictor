@@ -23,7 +23,7 @@ def train_model():
     print(classification_report(y_test, y_pred))
 
     joblib.dump(model, "model.pkl")
-    print(" Model saved successfully")
+    print("s Model saved successfully")
 
 if __name__ == "__main__":
     train_model()
